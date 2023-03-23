@@ -38,6 +38,10 @@
     color: #E5E7EB;
 }
 
+.top .hero {
+    display: flex;
+}
+
 .top .hero #main {
     font-size: 48px;
     font-weight: bolder;
