@@ -1,12 +1,21 @@
 
-.top .footer {
+.top, .footer {
     background-color: #1F2937;
+
 
 }
 
+.top .hero #main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
 
 
 .quote {
+    display: flexbox;
+    flex: auto;
+    justify-content: center;
     background-color: #E5E7EB;
 
     font-size: 36px;
