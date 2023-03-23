@@ -15,7 +15,8 @@
 
 .top .header {
     display: flex;
-    flex: auto;
+    flex: auto; 
+    margin: auto;
 }
 
 .top .header #logo {
@@ -30,7 +31,9 @@
 .top .header #links {
     display: flex;
     flex: auto;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin: auto;
+
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -50,12 +53,16 @@
 .quote-section {
     display: flexbox;
     flex: auto;
-    justify-content: center;
+    justify-content: space-around;
 
 
 }
 
 .quote-section #quote {
+    display: flex;
+    flex: auto;
+    justify-content: space-around;
+    padding: 10%;
     background-color: #E5E7EB;
     text-align: center;
 
