@@ -49,6 +49,12 @@
     color: #E5E7EB;
 }
 
+.top .hero #sign-up {
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 
 .quote-section {
     display: flexbox;
