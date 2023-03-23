@@ -1,8 +1,32 @@
 
 .top, .footer {
+    display: flexbox;
+    flex: auto;
+
     background-color: #1F2937;
 
 
+}
+
+.top .header {
+    display: flex;
+    flex: auto;
+}
+
+.top .header #logo {
+    display: flex;
+    flex: auto;
+
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.top .header #links {
+    display: flex;
+    flex: auto;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .top .hero #main {
@@ -11,12 +35,18 @@
     color: #F9FAF8;
 }
 
+.top .hero #subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
 
-.quote {
+
+.quote-section #quote {
     display: flexbox;
     flex: auto;
     justify-content: center;
     background-color: #E5E7EB;
+    text-align: center;
 
     font-size: 36px;
     font-style: italic;
