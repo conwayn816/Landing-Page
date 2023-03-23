@@ -8,6 +8,11 @@
 
 }
 
+.top {
+    display: flexbox;
+    flex: auto;
+}
+
 .top .header {
     display: flex;
     flex: auto;
@@ -16,6 +21,7 @@
 .top .header #logo {
     display: flex;
     flex: auto;
+    justify-content: center;
 
     font-size: 24px;
     color: #F9FAF8;
@@ -41,10 +47,15 @@
 }
 
 
-.quote-section #quote {
+.quote-section {
     display: flexbox;
     flex: auto;
     justify-content: center;
+
+
+}
+
+.quote-section #quote {
     background-color: #E5E7EB;
     text-align: center;
 
