@@ -13,13 +13,13 @@
     flex: auto;
 }
 
-.top .header {
+.header {
     display: flex;
     flex: auto; 
     margin: auto;
 }
 
-.top .header #logo {
+#logo {
     display: flex;
     flex: auto;
     justify-content: center;
@@ -28,7 +28,7 @@
     color: #F9FAF8;
 }
 
-.top .header #links {
+#links {
     display: flex;
     flex: auto;
     justify-content: space-around;
@@ -38,22 +38,22 @@
     color: #E5E7EB;
 }
 
-.top .hero {
+.hero {
     display: flex;
 }
 
-.top .hero #main {
+#main {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
 }
 
-.top .hero #subtext {
+#subtext {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.top .hero #sign-up {
+#sign-up {
     background-color: #3882F6;
     font-size: 18px;
     color: #E5E7EB;
@@ -68,7 +68,7 @@
 
 }
 
-.quote-section #quote {
+#quote {
     display: flex;
     flex: auto;
     justify-content: space-around;
