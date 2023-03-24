@@ -2,4 +2,4 @@
 
 A landing page with pure HTML5 and CSS. 
 
-![Screenshot](TopofPage.png)
+![Screenshot](https://github.com/conwayn816/Landing-Page/blob/main/images/TopofPage.png)
