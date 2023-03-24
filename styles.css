@@ -76,6 +76,55 @@
     color: #E5E7EB;
 }
 
+.info {
+    display: flexbox;
+    flex: auto;
+}
+
+#info-header {
+    text-align: center;
+    padding: 5%;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.image-container{
+    display: flex;
+    flex: auto;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5px;
+    justify-content: space-around;
+    
+}
+
+.info-images {
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-width: medium;
+    border-color: #3882F6;
+    border-radius: 25px;
+    background-color: #F9FAF8;
+    
+}
+
+.image-text {
+    display: flex;
+    flex: auto;
+    padding-left: 20%;
+    padding-right: 20%;
+
+    justify-content: space-around;
+}
+
+.image-subtext {
+    width: 150px;
+    height: 150px;
+    font-size: 18xpx;
+    text-align: center;
+}
 
 .quote-section {
     display: flexbox;
