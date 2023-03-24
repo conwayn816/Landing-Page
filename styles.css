@@ -1,4 +1,9 @@
 
+* {
+    font-family: 'Roboto';
+}
+
+
 .top, .footer {
     display: flexbox;
     flex: auto;
