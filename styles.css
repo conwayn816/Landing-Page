@@ -171,3 +171,13 @@
 #action-subtext {
     color: #F9FAF8;
 }
+
+.action-button {
+    width: 250px;
+    color: #F9FAF8;
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-radius: 25px;
+    text-align: center;
+    padding: 15px;
+}
