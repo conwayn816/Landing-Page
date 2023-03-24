@@ -146,3 +146,28 @@
     font-style: italic;
     color: #1F2937;
 }
+
+.action-container {
+    background-color: #3882F6;
+    display: flex;
+    flex: auto;
+    margin: 10%;
+    padding: 5%;
+    border-radius: 25px;
+}
+
+.action-text-container {
+    display: flexbox;
+    flex: auto;
+    padding-left: 10px;
+}
+
+#action-head {
+    font-weight: bolder;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+#action-subtext {
+    color: #F9FAF8;
+}
